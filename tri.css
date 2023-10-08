@@ -1,0 +1,268 @@
+#headertr{
+    background-color:rgb(184, 159, 134);
+    width:15%;
+    height:100px;
+    float:left;
+}
+#header{
+    background-color:rgb(184, 159, 134);
+    width:70%;
+    height:100px;
+    float:left;
+}
+#header a {
+    text-decoration: none; /* Loại bỏ gạch chân mặc định cho liên kết */
+    margin: 0 9px; /* Khoảng cách giữa các liên kết */
+    transition: font-weight 0.1s ease; /* Hiệu ứng chuyển đổi mượt mà */
+    color:rgb(9, 9, 3);
+    font-family: 'Croissant One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+#header a:hover {
+    font-weight: bold; /* Đổi chữ thành đậm khi rê chuột vào */
+}
+
+#header p{
+    font-size:20px;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#headerph{
+    background-color:rgb(184, 159, 134);
+    width:15%;
+    height:100px;
+    float:left;
+}
+
+
+.tb{
+    font-family: 'Croissant One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    float:right;
+}
+input[type="text"]{
+    font-size:20px;
+    padding:3px;
+    width:500px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    outline:none;
+}
+button[type="timkiem"]{
+    font-size:18px;
+    padding:3px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    outline:none;
+    height: 31px;
+    background-color:rgb(18, 18, 18);
+    color:#ffffff;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+#contentr{
+    background-color:rgb(228, 222, 216);
+    width:15%;
+    height:300px;
+    float:left;
+}
+#conten{
+    background-color:rgb(228, 222, 216);
+    width:50%;
+    height:300px;
+    float:left;
+}
+#conten2{
+    background-color:rgb(228, 222, 216);
+    width:20%;
+    height:300px;
+    float:left;
+}
+#contenph{
+    background-color:rgb(228, 222, 216);
+    width:15%;
+    height:300px;
+    float:left;
+}
+
+
+
+#contr{
+    background-color:rgb(228, 222, 216);
+    width:15%;
+    height:4400px;
+    float:left;
+}
+#con{
+    background-color:rgb(228, 222, 216);
+    width:70%;
+    height:4400px;
+    float:left;
+    
+}
+#conph{
+    background-color:rgb(228, 222, 216);
+    width:15%;
+    height:4400px;
+    float:left;
+}
+.ab{
+    display: inline-block;
+    width: 25px;
+    height:auto;
+    margin: 25px;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 6px;
+    height:30px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.abc {
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid #d49e9e;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 170px; /* Đặt chiều rộng của khung */
+    height: 200px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+    color:red;
+}
+
+.abc img {
+    width: 100%; /* Đặt chiều rộng của hình ảnh là 100% để nó phù hợp với khung */
+    height: auto; /* Cho phép chiều cao tự động điều chỉnh */
+    display: block; /* Loại bỏ khoảng trắng dưới hình ảnh */
+}
+
+.danhmuc {
+    display: inline-block;
+    padding:1px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 120px; /* Đặt chiều rộng của khung */
+    height: 160px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+}
+
+.danhmuc img {
+    width: 100%; /* Đặt chiều rộng của hình ảnh là 100% để nó phù hợp với khung */
+    height: auto; /* Cho phép chiều cao tự động điều chỉnh */
+    display: block; /* Loại bỏ khoảng trắng dưới hình ảnh */
+}
+h3{
+    font-size:25px;
+    color:red;
+}
+
+.danhmucfl{
+    display: inline-block;
+    padding:1px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 197px; /* Đặt chiều rộng của khung */
+    height: 230px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+}
+button[type="banchay"]{
+    font-size: 15px; /* Thay đổi kích thước chữ */
+    padding: 1px 40px; /* Thay đổi kích thước nút bằng cách chỉ định padding */
+    border: none; /* Loại bỏ viền */
+    background-color: #ff2a00; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border-radius: 5px; /* Bo góc */
+}
+.timkiemhangd{
+    display: inline-block;
+    padding:1px;
+    border: 1px solid #b7afaf;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 197px; /* Đặt chiều rộng của khung */
+    height: 230px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+
+}
+button[type="tkhd"]{
+    font-size: 15px; /* Thay đổi kích thước chữ */
+    margin: 0px;
+    padding: 1px 46px; /* Thay đổi kích thước nút bằng cách chỉ định padding */
+    border: none; /* Loại bỏ viền */
+    background-color: #b8b1af; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border-radius: 3px; /* Bo góc */
+}
+.sphomnay{
+    display: inline-block;
+    padding:1px;
+    border: 1px solid #b7afaf;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    width: 163px; /* Đặt chiều rộng của khung */
+    height: 260px; /* Đặt chiều cao của khung */
+    overflow: hidden; /* Ẩn phần hình ảnh nằm ngoài khung */
+}
+.sphomnay p1{
+    color:red;
+}
+
+/*code kiếm trên mạng chưa mò*/
+.sphomnay {
+    position: relative;
+  }
+
+  .sphomnay:hover::after {
+    content: "Tìm sản phẩm tương tự";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(233, 136, 0);
+    padding: 6px;
+    border: 1px solid #ccc;
+    z-index: 3;
+  }
+
+  button[type="xemthem"]{
+    font-size:20px;
+    padding:3px 50px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    outline:none;
+    height: 31px;
+    background-color:rgb(237, 10, 10);
+    color:#ffffff;
+}
+
+#footertr{
+    background-color:rgb(228, 222, 216);
+    width:15%;
+    height:1250px;
+    float:left;
+}
+#footer{
+    background-color:rgb(228, 222, 216);
+    width:70%;
+    height:1250px;
+    float:left;
+}
+#footerph{
+    background-color:rgb(228, 222, 216);
+    width:15%;
+    height:1250px;
+    float:left;
+}
